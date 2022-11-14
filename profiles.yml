@@ -10,5 +10,5 @@ jaffle_shop:
       database: dbtdb
       schema: dbt_winnerpio
       authentication: ActiveDirectoryPassword
-      user: ${{dbuser}}
-      password: ${{dbpass}}
+      user: "{{ env_var('dbuser') }}"
+      password: "{{ env_var('dbpass') }}"
