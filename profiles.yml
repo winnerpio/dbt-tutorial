@@ -10,5 +10,5 @@ jaffle_shop:
       database: dbtdb
       schema: dbt_winnerpio
       authentication: ActiveDirectoryPassword
-      user: ${DBUSER}
-      password: ${DBPASS}
+      user: winnerpio@wojtaszewskipiogmail.onmicrosoft.com
+      password: Pola80655
