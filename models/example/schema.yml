@@ -19,6 +19,7 @@ models:
         tests:
           - unique
           - not_null
+
    - name: model1
     description: "A starter dbt model1"
     columns:
