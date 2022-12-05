@@ -19,3 +19,11 @@ models:
         tests:
           - unique
           - not_null
+   - name: model1
+    description: "A starter dbt model1"
+    columns:
+      - name: PersonID
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
